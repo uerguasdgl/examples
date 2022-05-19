@@ -311,7 +311,7 @@
     // start up script
     document.addEventListener('DOMContentLoaded', function(event) {
 
-      $.getJSON('https://www.sfu.ca/~jeffe/examples/total.json', function(data) {
+      $.getJSON('https://raw.githubusercontent.com/uerguasdgl/examples/main/data.json', function(data) {
         RAW = data;
         var parent = document.getElementById("examples");
         for (var i=0; i<RAW.length; i++) {
